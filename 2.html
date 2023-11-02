@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+    <style>
+        body {
+            background-color: rgb(208, 207, 227);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: rgb(57, 57, 142);
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        body>p {
+            text-align: center;
+            color: black;
+            font-size: 14px;
+            margin-top: 0;
+        }
+
+        .card {
+            width: 350px;
+            height: 350px;
+            border-radius: 10px;
+            background-color: white;
+            position: relative;
+            margin: 10px;
+            top: 40px;
+        }
+
+        img {
+            width: 320px;
+            height: 175px;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+
+        .flexbox {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .caption {
+            position: absolute;
+            top: 180px;
+            padding: 15px;
+            font-weight: bolder;
+            color: rgb(67, 59, 215);
+            font-size: 17px;
+        }
+
+        .name {
+            position: absolute;
+            top: 240px;
+            padding: 15px;
+            color: black;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .free {
+            position: absolute;
+            top: 275px;
+            padding: 15px;
+            color: black;
+            font-size: 16px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>Community Programs</h1>
+    <p>Open to all pro-live classes on Youtube for free.</p>
+    <div class="flexbox">
+        <div class="card">
+            <img src="/Hitesh.jpg" alt="Hitesh Sir">
+            <p class="caption">Masterclass Understanding APIs in Web Development with RoadMap</p>
+            <p class="name">Hitesh Choudhary</p>
+            <p class="free">FREE</p>
+        </div>
+        <div class="card">
+            <img src="/Mohan.jpg" alt="Mohan Sir">
+            <p class="caption">Masterclass Cracking The Coding Interview LinkedList</p>
+            <p class="name">Vishwa Mohan</p>
+            <p class="free">FREE</p>
+        </div>
+        <div class="card">
+            <img src="/Priya.jpg" alt="Priya Ma'am">
+            <p class="caption">MasterClass Important of DSA in Modern Programming</p>
+            <p class="name">Priya Bhatia</p>
+            <p class="free">FREE</p>
+        </div>
+    </div>
+</body>
+</html>
